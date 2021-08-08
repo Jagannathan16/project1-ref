@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="transactionHistoryform.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="transaction-history" method="GET">
+        <label for="accountNo">Account Number</label>
+        <input id="accountNo" name="accountNo">
+
+        <select name="choose" id="choose">
+            <option value="Top-10">Top 10</option>
+            <option value="last-some-month">Last some month</option>
+            <option value="from-to">From - To</option>
+        </select>
+
+        <div class="month-form">
+            <label for="month">Month</label>
+            <input id="month" name="month">
+        </div>
+        <div class="from-to-form">
+            <label for="from">From</label>
+            <input id="from" name="from" placeholder="yyyy-mm-dd">
+            <label for="to">To</label>
+            <input id="to" name="to" placeholder="yyyy-mm-dd">
+        </div>
+
+        <button type="submit">submit</button>
+    </form>
+    <script src="transactionHistroyForm.js"></script>
+</body>
+
+</html>
