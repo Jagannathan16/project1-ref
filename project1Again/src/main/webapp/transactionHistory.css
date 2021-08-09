@@ -1,0 +1,26 @@
+body{
+    background-color: #659DBD;
+}
+
+.table-container{
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    background-color: white;
+    color: #659DBD;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+th{
+    text-align: center;
+    padding: 5px 10px;
+}
+td{
+    text-align: center;
+    padding: 5px 10px;
+}
